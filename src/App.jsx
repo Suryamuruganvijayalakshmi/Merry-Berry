@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import CinematicHero from './components/CinematicHero';
 import Navbar from './components/Navbar';
 import AboutSection from './components/AboutSection';
@@ -104,6 +105,9 @@ export default function App() {
 
       {/* Footer */}
       <Footer />
+
+      {/* Vercel Analytics */}
+      <Analytics />
 
       {/* Cart & Online Order Drawer Modal */}
       <OrderDrawer
