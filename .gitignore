@@ -5,9 +5,9 @@ node_modules/
 dist/
 
 # Test / Scratch artifacts
-sample_frames/
-frames_webp/
-public/frames/
+/sample_frames/
+/frames_webp/
+/public/frames/
 
 # Logs & temp files
 *.log
