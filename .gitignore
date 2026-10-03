@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Production build
+dist/
+
+# Test / Scratch artifacts
+sample_frames/
+frames_webp/
+public/frames/
+
+# Logs & temp files
+*.log
+.DS_Store
+Thumbs.db
